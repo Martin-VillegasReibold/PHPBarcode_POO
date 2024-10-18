@@ -1,0 +1,39 @@
+
+  @media screen{
+
+  body{
+    height: calc(100%);
+    width: calc(100%);
+  }
+  }
+  .container-fluid{
+    height: calc(100%);
+
+  }
+  div#display {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+}
+@media print{
+  div#display {
+    display: flex;
+    height: auto;
+    width: 100%;
+    align-items: center;
+}
+}
+#display #field,#display center {
+    margin: auto;
+}
+#field img{
+    height: 9vh;
+    max-width: 100%
+}
+div#code {
+    font-weight: 700;
+    font-size: 17px;
+    text-align: justify;
+    text-align-last: justify;
+}
